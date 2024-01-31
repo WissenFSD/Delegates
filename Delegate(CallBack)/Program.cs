@@ -8,8 +8,8 @@
 
 
             // bu kısım yarın detaylı konuşulacak
-
-            CallBackDelege delege = ClassA.MethodA;
+            ClassA aclass = new ClassA();
+            CallBackDelege delege = aclass.MethodA;
 
             Topla(10, 20, delege);
         }

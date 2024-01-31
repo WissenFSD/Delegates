@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Delegate_CallBack_
 {
-    public static class ClassA
+    public  class ClassA
     {
-        public static void MethodA(string value)
+        public  void MethodA(string value)
         {
             Console.WriteLine(value);
         }
