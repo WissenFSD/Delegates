@@ -54,6 +54,10 @@ namespace Delegate_1_
             sumDelege();
 
 
+            // Math sınıfında double parametre alan ve geriye double değer döndüren metotları işaret edebilecek bir delege yazınız
+            // bu delegeye math sınıfında uygun olan metotları işaret ettieriniz
+            // sonrasında delege ile bu metotları çalıştırınız
+         
             // sum delege üzerine bir metot daha ekleyelim(Farklı atama)
 
 
@@ -89,4 +93,7 @@ namespace Delegate_1_
         public static void Metot3() { Console.WriteLine("metot3"); }    
         public static void Metot4() { Console.WriteLine("metot4"); }
     }
+
+
+    
 }
